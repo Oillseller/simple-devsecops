@@ -1,4 +1,4 @@
-# vuln_test.py
+## vuln_test.py
 
 # Hardcoded password example (這個會被 Semgrep 抓到)
 def login():
