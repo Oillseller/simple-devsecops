@@ -20,4 +20,4 @@ jobs:
       - name: Run Semgrep
         uses: returntocorp/semgrep-action@v1
         with:
-          config: "p/default"
+          config: "p/default p/secrets p/security-audit"
