@@ -1,9 +1,4 @@
-###trigger###
+# offical_trigger.py
 
-import os
-
-def bad_code():
-    password = "secret_password"  # hardcoded password
-    os.system("sh -c " + input())  # command injection
-
-bad_code()
+user_input = input("Enter command: ")
+eval(user_input)
