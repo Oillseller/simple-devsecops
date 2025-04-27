@@ -1,7 +1,7 @@
 import os
 
 def insecure_function(user_input):
-    os.system("rm -rf /" + user_input)
+    os.system(f"rm -rf {user_input}")
 
 if __name__ == "__main__":
     user_input = input("Enter something: ")
